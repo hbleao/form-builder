@@ -1,0 +1,58 @@
+@import '../../styles/base.scss';
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $transparent500;
+  z-index: 50;
+  backdrop-filter: blur(1px);
+}
+
+.dialog {
+  min-width: 320px;
+  background: $blue800;
+  color: $gray850;
+  z-index: 60;
+  padding: 2rem;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  color: $white;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  svg {
+    cursor: pointer;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+  }
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.content {
+  height: 100%;
+}

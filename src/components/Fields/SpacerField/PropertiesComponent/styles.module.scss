@@ -1,0 +1,19 @@
+@import '../../../../styles/base.scss';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.text {
+  font-size: 0.8rem;
+  color: $gray200;
+  line-height: 20px;
+}

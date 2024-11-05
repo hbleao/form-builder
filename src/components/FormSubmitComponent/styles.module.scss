@@ -1,0 +1,27 @@
+.formSubmit {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  height: max-content;
+  width: 620px;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 24px 4px #ffffff31;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.button {
+  margin-top: 2rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+}

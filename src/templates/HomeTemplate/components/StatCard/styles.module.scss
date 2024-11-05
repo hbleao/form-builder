@@ -1,0 +1,47 @@
+@import '../../../../styles/base.scss';
+
+.statsCard {
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.info {
+  box-shadow: 0px 2px 0px 3px $blue300;
+}
+
+.success {
+  box-shadow: 0px 2px 0px 3px $green200;
+}
+
+.warn {
+  box-shadow: 0px 2px 0px 3px $yellow200;
+}
+
+.danger {
+  box-shadow: 0px 2px 0px 3px $red200;
+}
+
+.statsCardHeader {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statsCardHeader {
+  color: $white;
+}
+
+.statsCardHeaderTitle {
+  color: $white;
+}
+
+.statsCardContent {
+  color: $white;
+  margin-bottom: 0.5rem;
+}
+
+.statsCardHelperText {
+  color: $gray300;
+  font-size: 0.8rem;
+}

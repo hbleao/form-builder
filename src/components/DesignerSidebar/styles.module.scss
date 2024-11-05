@@ -1,0 +1,14 @@
+@import '../../styles/base.scss';
+
+.designerSidebar {
+  width: 400px;
+  max-width: 400px;
+  height: 100%;
+  background-color: $blue900;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+}

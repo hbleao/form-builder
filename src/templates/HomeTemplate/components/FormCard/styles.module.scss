@@ -1,0 +1,43 @@
+@import '../../../../styles/base.scss';
+
+.container {
+  border: 1px solid $gray300;
+  border-radius: 4px;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divisor {
+  margin-bottom: 1.6rem;
+}
+
+.time {
+  font-size: 0.8rem;
+}
+
+.info {
+  margin: 4px 0px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.description {
+  height: 20px;
+  font-size: 0.8rem;
+  display: flex;
+  flex: 1;
+}
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1;
+  align-items: end;
+}

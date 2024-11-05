@@ -1,0 +1,17 @@
+@import '../../styles/base.scss';
+
+.badge {
+  padding: 4px 6px;
+  border-radius: 6px;
+  color: $white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.warn {
+  background-color: $yellow500;
+}
+
+.published {
+  background-color: $green300;
+}

@@ -1,0 +1,22 @@
+@import '../../styles/base.scss';
+
+.homeTemplate {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: $blue900;
+}
+
+.homeTitle {
+  margin: 2rem 0 1rem;
+
+  h2 {
+    line-height: 2.8rem;
+    border-bottom: 1px solid $gray300;
+  }
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
